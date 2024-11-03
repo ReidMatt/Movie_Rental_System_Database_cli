@@ -1,15 +1,16 @@
 {
-  "name": "movie-rental-system",
+  "name": "movie_rental_cli",
   "version": "1.0.0",
-  "description": "A CLI app to interact with a movie rental system database",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matthew English",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "pg": "^8.13.0"
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
   }
 }
